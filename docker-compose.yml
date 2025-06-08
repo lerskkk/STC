@@ -1,7 +1,9 @@
 version: '3.9'
-services: 
-app: 
-build: . 
-ports: - "8000:8000"
-environment: - LC_CTYPE=C.UTF-8
-restart: unless-stopped
+services:
+  app:
+    build: .
+    ports:
+      - "8000:8000"
+    environment:
+      - LC_CTYPE=C.UTF-8
+    restart: unless-stopped
