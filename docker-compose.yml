@@ -4,6 +4,4 @@ services:
     build: .
     ports:
       - "8000:8000"
-    environment:
-      - LC_CTYPE=C.UTF-8
     restart: unless-stopped
